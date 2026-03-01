@@ -77,3 +77,13 @@ The UI is designed with modern gradients, glassmorphism, animations, and profess
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+python -m venv venv
+
+venv\Scripts\activate
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+streamlit run main.py
